@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/action.php">
+      <p>
+        Username:<input
+          type="text"
+          name="Username"
+          placeholder="Write your name"
+        />
+      </p>
+      <p>Password:<input type="password" placeholder="password" /></p>
+      <br>
+      <br>
+      <!-- if we label a radio button then clicking in the text will also enable it. -->
+      <p>
+        Choose your class:
+        <label for="1"
+          ><input type="radio" name="class" value="Class XI" id="1" />Class XI </label
+        ><label for="2"
+          ><input type="radio" name="class" value="Class XII" id="2" />Class
+          XII</label
+        >
+      </p>
+      <br>
+      <br>
+      Choose subjects:
+      <label for="math"><input type="checkbox" name="subject" id="math">Math</label>
+      <label for="phy"><input type="checkbox" name="subject" id="phy">Physics</label>
+      <label for="chem"><input type="checkbox" name="subject" id="chem">Chemistry</label>
+      <label for="bio"><input type="checkbox" name="subject" id="bio">Biology</label>
+      <br>
+      <br>
+      Select City:
+      <select name="City" id="1">
+        <option value="Dhaka">Dhaka</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Sylhet">Sylhet</option>
+      </select>
+      <br>
+      <br>
+      <textarea name="feedback" id="0" cols="30" rows="10" placeholder="feedback"></textarea>
+      <br>
+      <input type="submit" value="submit">
+    </form>
+  </body>
+</html>

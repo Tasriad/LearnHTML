@@ -1,0 +1,127 @@
+<!-- tells the browser you are using HTML5. The document type. -->
+<!DOCTYPE html>
+<!-- html tag is the root for an html document -->
+<!-- lang is an attribute and en is value for the attribute. -->
+<html lang="en">
+  <!-- container for metadata     -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- compatibility with other devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title tag -->
+    <title>Hompage</title>
+  </head>
+  <!-- contains all data rendered by browser. -->
+  <body>
+    <!-- header tag -->
+    <!-- There are 6 of them from h1 to h6 where h1 is the largest(more important) and h6(least important) is the smallest.This is used for importance not to change size -->
+    <h1>Hello HTML World!</h1>
+    <h2>Hello HTML World!</h2>
+    <h3>Hello HTML World!</h3>
+    <h4>Hello HTML World!</h4>
+    <h5>Hello HTML World!</h5>
+    <h6>Hello HTML World!</h6>
+
+    <!-- paragraph tag -->
+    <p>This is a paragraph.</p>
+    <!-- lorem is sample word generator. -->
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium
+      perspiciatis pariatur velit. At odio unde, beatae eaque iure optio quaerat
+      atque laudantium molestiae fugit possimus? Laborum quis alias officiis
+      minima?
+    </p>
+    <!-- Link to other website. -->
+    <!-- This is  an absolute URL link. -->
+    <a href="https://developer.mozilla.org/en-US/"> MOZILLA </a>
+    <br />
+    <!-- using target attribute will open the link in new tab. -->
+    <a href="https://developer.mozilla.org/en-US/" target="-main">
+      MOZILLA IN NEW TAB
+    </a>
+    <br />
+    <!-- link with icon -->
+    <a href="https://developer.mozilla.org/en-US/"
+      ><img
+        src="https://e1.pngegg.com/pngimages/662/819/png-clipart-dark-icons-part-ii-firefox-mozilla-firefox-logo-clip.png"
+        height="100"
+        alt="Mozilla"
+    /></a>
+    <!-- line break -->
+    <br />
+    <a href="https://monkeytype.com/">Monkey type </a>
+    <br />
+    <!-- linking pages. -->
+    <!-- This is  a relative URL link. -->
+    <a href="/page1.html">Go to page1.</a>
+    <br />
+    <a href="/Folder/page2.html">Go to page2</a>
+    <br />
+    <a href="/pageLayout.html">Go to page Layout</a>
+    <br />
+    <a href="/list.html">Go to list</a>
+    <br />
+    <a href="/table.html">Go to table</a>
+    <br />
+    <a href="/form.html">Go to form</a>
+    <br />
+    <a href="/video.html">Go to video</a>
+    <!-- This is horizontal ruler. -->
+    <hr />
+    <!-- Rendering image -->
+    <img
+      src="https://animeuknews.net/app/uploads/2021/06/Eight-Six-volume-7-cover.jpg"
+      alt="Shin x Lena"
+      height="1000"
+    />
+    <br />
+    <img src="/image/86.jpg" alt="86" width="650" />
+    <br />
+    Watch 86 trailer:
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Mb5ESlC3FNc"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <hr />
+    <!-- Bold Italic and Underline -->
+    <p>
+      <b>Lorem </b>ipsum dolor sit amet consectetur adipisicing elit.
+      <u>Iusto dolorem quisquam recusandae nulla est ipsam odit</u>.
+      <i
+        >Rem accusantium, porro sequi aperiam, qui, perferendis harum
+        voluptatibus et voluptate laboriosam sunt quaerat</i
+      >.
+    </p>
+    <big>This makes the text bigger.</big>
+    <small>This makes the text smaller.</small>
+    <!-- subscript and superscipt -->
+    <p>(a<sub>1</sub>+a<sub>2</sub>)<sup>2</sup></p>
+    <!-- pre is used to show user applied space and newline -->
+    <pre>
+        Lorem               ipsum dolor sit amet consectetur adipisicing elit. Magni exercitationem voluptates quod
+         commodi, quae nostrum voluptate assumenda porro veritatis mollitia? Dolores aspernatur neque rerum autem aliquid 
+         numquam modi sapiente animi iusto saepe. Unde, cum nulla. Illo vero at similique totam magnam ad reprehenderit
+          reiciendis aspernatur adipisci dolore ipsam deleniti consectetur necessitatibus delectus accusantium cum, ullam
+           voluptate eaque quos, consequatur animi excepturi. Harum libero eaque, corrupti, incidunt quidem rem nam
+            exercitationem fugiat voluptas magnam quae veniam. Quibusdam nostrum ullam iusto sit incidunt eaque suscipit
+             adipisci doloremque voluptate quod veniam laboriosam, eius libero hic aperiam ratione alias. Nulla,
+              necessitatibus! Voluptas, quaerat nihil.
+    </pre>
+    <!-- inline elements takes only the amount of width it needs
+    block elements takes the full width
+    div creates block. collective css changes can be made in a block. 
+    span is a inline non semantic tag. non semantic tags doesnt have any effects they only contain other tags.-->
+    <div>
+      <p>Good morning.</p>
+      <p>Ohio</p>
+      <p>shuvo shoakl</p>
+    </div>
+    <span> Good night. </span>
+  </body>
+</html>
